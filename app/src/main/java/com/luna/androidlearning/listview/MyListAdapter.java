@@ -66,7 +66,7 @@ public class MyListAdapter extends BaseAdapter
         holder.tvTitle.setText("安卓应用开发");
         holder.tvTime.setText("2018-12-19");
         holder.tvContent.setText("面朝大海，春暖花开");
-        Glide.with(mContext).load("https://pic.taifua.com/me/material-1.png").into(holder.imageView);
+        Glide.with(mContext).load("https://www.isczy.tk/luna-image-bed/img/20210316141051.png").into(holder.imageView);
         return view;
     }
 }

@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="15dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
 
     <RadioGroup
-        android:id="@+id/rg_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <RadioButton
-            android:id="@+id/rb_1"
+            android:id="@+id/rg_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="男"
-            android:checked="true"
-            android:textSize="18sp"
-            android:textColor="#FF6600"/>
+            android:orientation="vertical">
+
         <RadioButton
-            android:id="@+id/rb_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="女"
-            android:textSize="18sp"
-            android:textColor="#FF6600"/>
+                android:id="@+id/rb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="男"
+                android:textColor="#FF6600"
+                android:textSize="18sp" />
+
+        <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                android:textColor="#FF6600"
+                android:textSize="18sp" />
     </RadioGroup>
 
     <RadioGroup
-        android:id="@+id/rg_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@+id/rg_1"
-        android:layout_marginTop="50dp">
+            android:id="@+id/rg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_1"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
         <RadioButton
-            android:id="@+id/rb_3"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="男"
-            android:button="@null"
-            android:checked="true"
-            android:textSize="18sp"
-            android:textColor="#000000"
-            android:gravity="center"
-            android:background="@drawable/selector_orange_ratiobutton"/>
+                android:id="@+id/rb_3"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:background="@drawable/selector_orange_ratiobutton"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="男"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
         <RadioButton
-            android:id="@+id/rb_4"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="女"
-            android:button="@null"
-            android:textSize="18sp"
-            android:textColor="#000000"
-            android:gravity="center"
-            android:background="@drawable/selector_orange_ratiobutton"
-            android:layout_marginLeft="20sp"/>
+                android:id="@+id/rb_4"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20sp"
+                android:background="@drawable/selector_orange_ratiobutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="女"
+                android:textColor="#000000"
+                android:textSize="18sp" />
     </RadioGroup>
 
 </RelativeLayout>

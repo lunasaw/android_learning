@@ -13,7 +13,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="#000000"
-            android:scaleType="centerCrop" />
+            android:scaleType="fitCenter" />
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -44,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="面朝大海，春暖花开"
+                android:gravity="center_horizontal"
                 android:textColor="@color/colorGrayDark"
                 android:textSize="18sp" />
     </LinearLayout>
