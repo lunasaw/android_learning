@@ -1,5 +1,6 @@
 package com.luna.androidlearning;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -29,6 +30,8 @@ public class EditTextActivity extends AppCompatActivity
             public void onClick(View view)
             {
                 Toast.makeText(EditTextActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(EditTextActivity.this,ImageViewActivity.class);
+                startActivity(intent);
             }
         });
 

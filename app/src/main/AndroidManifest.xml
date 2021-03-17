@@ -40,7 +40,7 @@
         <activity android:name="com.luna.androidlearning.DialogActivity" />
         <activity android:name="com.luna.androidlearning.ProgressActivity" />
         <activity android:name="com.luna.androidlearning.CustomDialogActivity" />
-        <activity android:name="com.luna.androidlearning.PopupWindowActivity"></activity>
+        <activity android:name="com.luna.androidlearning.PopupWindowActivity"/>
     </application>
 
 </manifest>

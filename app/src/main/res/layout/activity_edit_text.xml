@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+        android:background="@color/colorGreen"
     android:padding="15dp">
 
     <EditText
@@ -16,7 +17,7 @@
         android:paddingRight="10dp"
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/username"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="80dp"/>
 
     <EditText
         android:id="@+id/et_2"
@@ -34,11 +35,37 @@
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/password"/>
 
+    <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_2"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+        <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="男"
+                android:textColor="#FF6600"
+                android:textSize="18sp" />
+
+        <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                android:textColor="#FF6600"
+                android:textSize="18sp" />
+    </RadioGroup>
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@id/et_2"
+        android:layout_below="@id/rg_1"
         android:layout_marginTop="40dp"
         android:text="登录"
         android:textSize="20sp"
